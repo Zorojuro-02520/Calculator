@@ -1,0 +1,126 @@
+@import url(https://fonts.googleapis.com/css?family=VT323);
+
+.calc {
+  background-color: #c6af91;
+  width: 640px;
+  font-family: 'vt323';
+}
+
+.header {
+  background-color: #222;
+  height: 100%;
+  padding: 1em 2em 2em 2em;
+  border: 0.5em outset #555;
+
+}
+
+h1 {
+  margin: 0.25em 0 0.5em 0;
+  color: white;
+}
+
+.header hr {
+  border: 0;
+  border-bottom: 0.25em solid #444;
+  margin-left: -2em;
+  margin-right: -2em;
+  margin-bottom: 0;
+}
+
+.red {
+  border-bottom: 0.25em solid red;
+
+}
+
+input[type="text"] {
+  background-color: #928c7c;
+  min-width: 95%;
+  max-width: 95%;
+  color: #222;
+  font-size: 300%;
+  border: 0.1em inset #cbcbcb;
+  padding-left: 0.1em;
+  text-align: right;
+}
+
+.body {
+  border: 0.5em outset #c6af91;
+  height: 100%;
+  min-height: 20em;
+  padding: 1em 1em 3em 1em;
+
+}
+
+.body hr {
+  border-bottom: 0.25em solid #e70523;
+}
+
+.row {
+  margin-top: 0.5em;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.b_button {
+  background-color: #444;
+  border: 0.2em outset #444;
+  color: white;
+  font-size: 200%;
+  width: 3.6em;
+  height: 2em;
+  padding: 0;
+  margin: 0;
+}
+
+.b_equal {
+  background-color: #444;
+  border: 0.2em outset #444;
+  color: white;
+  font-size: 200%;
+  width: 3.6em;
+  height: 2em;
+  padding: 0;
+  margin: 0;
+  border: 0.2em outset #666;
+  background-color: #666;
+}
+
+.b_clear {
+  color: white;
+  font-size: 200%;
+  width: 3.6em;
+  height: 2em;
+  padding: 0;
+  margin: 0;
+  border: 0.2em outset #9f3543;
+  background-color: #9f3543;
+
+}
+
+.b_button:active {
+  border: 0 !important;
+}
+
+.b_clear:active {
+  border: 0 !important;
+}
+
+.b_equal:active {
+  border: 0 !important;
+}
+
+.b_button:focus {
+  outline: 0;
+
+}
+
+.b-clear:focus {
+  outline: 0;
+}
+
+.b_equal:focus {
+  outline: 0;
+}
